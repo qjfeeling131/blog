@@ -1,0 +1,59 @@
+baseURL = "https://qjfeeling131.github.io"
+languageCode = "en-us"
+title = "My New Hugo Site"
+
+
+[params]
+title = "I'm Pari Zhong"
+author = "Pari Zhong"
+description = "Call me Pari"
+profilePicture = "images/profile.jpg"
+copyright = "2021-2025"
+mainSections = ["post"]
+
+## Math settings
+[params.math]
+enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/qjfeeling131"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "qjfeeling@163.com"
+
+## Menu items
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
+
+  [[menu.main]]
+  name = "Contact"
+  weight = 400
+  identifier = "contact"
+  url = "/contact/"
+
+## Taxonomies for Opengraph
+[taxonomies]
+  series = "series"
