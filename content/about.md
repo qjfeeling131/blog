@@ -4,6 +4,6 @@ date: 2021-03-06T12:59:28+08:00
 draft: true
 ---
 
-### Hello Pari
+### Note
 
-1. This is my first blog by Hugo
+I would like to use this blog to record my experience of development.
